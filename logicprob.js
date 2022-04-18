@@ -119,12 +119,36 @@
 
 
 
-let elements=[2,3,4]
-let fact=1
-for(let i=0;i<elements.length;i++){
-    fact=1
-    for(let j=1;j<=elements[i];j++){
-    fact=fact*j
-    }
-    console.log("factorial of",elements[i],"is",fact)
-}
+// let elements=[2,3,4]
+// let fact=1
+// for(let i=0;i<elements.length;i++){
+//     fact=1
+//     for(let j=1;j<=elements[i];j++){
+//     fact=fact*j
+//     }
+//     console.log("factorial of",elements[i],"is",fact)
+// }
+
+// let sentence="wednesday is good day"
+// let rev=""
+// for ( i=0;i<sentence.length;i++){
+
+//     rev=sentence[i]+rev
+// }
+// console.log(rev)
+// revstrng=rev.split(' ').reverse().join(' ')
+// console.log(revstrng)
+// function revstrng(){
+//     let sent="today is  a good day"
+//     let rev=sent.split('').reverse().join('')
+//     console.log(rev)
+// }
+// revstrng()
+
+let aa= "I am learning javascript"
+let bb= aa.split(' ')
+console.log(bb)
+let ddd=bb.map(function(el,index){
+    let sum=0
+    return sum=el-sum
+})
